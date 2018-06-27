@@ -3,10 +3,19 @@ spring:
     url: jdbc:mysql://localhost:3306/sfg_prod
     username: sfg_prod_user
     password: guru
+<<<<<<< HEAD
     platform: mysql
+=======
+    platform: prod
+>>>>>>> refs/remotes/origin/schemal-generation-with-hibernate
   jpa:
     hibernate:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: mysql
     show-sql: false
+    
+logging:
+  level:
+    guru:
+      springframework: warn
