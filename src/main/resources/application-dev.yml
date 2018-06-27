@@ -18,3 +18,8 @@ spring:
 #            scripts:
 #              action: create
 #              create-target: guru_database_create.sql
+
+logging:
+  level:
+    guru:
+      springframework: debug
